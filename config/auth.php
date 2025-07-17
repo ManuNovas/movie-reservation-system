@@ -112,4 +112,10 @@ return [
 
     'password_timeout' => env('AUTH_PASSWORD_TIMEOUT', 10800),
 
+    'root' => [
+        'name' => env('AUTH_ROOT_NAME'),
+        'email' => env('AUTH_ROOT_EMAIL'),
+        'password' => env('AUTH_ROOT_PASSWORD'),
+    ],
+
 ];
